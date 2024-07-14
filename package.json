@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@previewjs/cli": "^1.28.1",
     "axios": "^1.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,6 +19,7 @@
     "styled-components": "^6.1.11"
   },
   "devDependencies": {
+    "@previewjs/cli": "^1.28.1",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@types/react": "^18.3.3",
