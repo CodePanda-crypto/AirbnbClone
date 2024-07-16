@@ -4,13 +4,14 @@
   flex: 0.5;
   background-color: rgb(31, 31, 49);
   border-radius: 5px;
-  padding: 0px;
+  padding: 1rem;
 }
+
 .App-header > h1:hover {
   filter: drop-shadow(0 0 2em #00e1ff);
 }
 .App-logo {
-  height: 4.5em;
+  height: 5em;
   padding: 1em;
   will-change: filter;
   transition: filter 500ms;
