@@ -1,4 +1,6 @@
 import './header.css';
+import ReactLogo from '/react.svg';
+
 function Header() {
   return (
     <header className="App-header">
@@ -11,7 +13,7 @@ function Header() {
             rel="noopener noreferrer"
           >
             <img
-              src="/react.svg"
+              src={ReactLogo}
               className="App-logo react logo-spin"
               alt="React logo"
             />
