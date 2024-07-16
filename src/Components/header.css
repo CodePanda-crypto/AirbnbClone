@@ -2,6 +2,7 @@
   grid-area: header;
   background-color: rgb(31, 31, 49);
   padding: 0.5rem;
+  overflow: hidden;
 }
 .navbar {
   display: flex;
