@@ -1,28 +1,14 @@
 import React, { useState } from 'react';
-import viteLogo from '/vite.svg';
 import './App.css';
+import Header from './Components/header';
+import Footer from './Components/footer';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="container">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/react.svg"
-            className="App-logo react logo-spin"
-            alt="React logo"
-          />
-        </a>
-        <h1>ReactFacts</h1>
-      </header>
-
+      <Header />
       <main className="card">
         <h1>Fun facts about React</h1>
         <div className="react-facts">
@@ -35,17 +21,7 @@ function App() {
           </ul>
         </div>
       </main>
-
-      <footer className="App-footer">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
