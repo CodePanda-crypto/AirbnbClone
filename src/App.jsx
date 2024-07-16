@@ -8,11 +8,18 @@ function App() {
   return (
     <div className="container">
       <header className="App-header">
-        <img
-          src="/react.svg"
-          className="App-logo react logo-spin"
-          alt="React logo"
-        />
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/react.svg"
+            className="App-logo react logo-spin"
+            alt="React logo"
+          />
+        </a>
         <h1>ReactFacts</h1>
       </header>
 
