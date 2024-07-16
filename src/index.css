@@ -98,7 +98,7 @@ a {
   font-weight: 500;
   color: #05dbf9;
   text-decoration: inherit;
-  transition: filter 500ms ease-in-out;
+  transition: filter 500ms ease;
 }
 a:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
