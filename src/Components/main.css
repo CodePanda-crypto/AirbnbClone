@@ -1,16 +1,11 @@
 .card {
+  grid-area: main;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px;
-  min-height: 55vh;
+  min-height: 70vh;
   background-color: rgb(53, 53, 63);
   color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  font-weight: lighter;
-  border-radius: 5px;
-  padding: 2rem;
 }
 
 ul {

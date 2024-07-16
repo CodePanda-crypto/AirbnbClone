@@ -96,19 +96,13 @@ ul[role='list'] {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #05dbf9;
   text-decoration: inherit;
+  transition: filter 500ms ease-in-out;
 }
 a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  filter: drop-shadow(0 0 2em #646cffaa);
+  color: aliceblue;
 }
 
 h1 {
@@ -126,7 +120,8 @@ h1 {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    filter: drop-shadow(0 0 2em #646cffaa);
+    color: aliceblue;
   }
   button {
     background-color: #f9f9f9;

@@ -1,23 +1,28 @@
 .App-header {
+  grid-area: header;
+  background-color: rgb(31, 31, 49);
+  padding: 0.5rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
   display: flex;
   align-items: center;
-  flex: 0.5;
-  background-color: rgb(31, 31, 49);
-  border-radius: 5px;
-  padding: 1rem;
+  list-style: none;
+  gap: 1rem;
+  padding-right: 1rem;
 }
-
-.App-header > h1:hover {
-  filter: drop-shadow(0 0 2em #00e1ff);
+.nav-link > a {
+  transition: color 500ms;
 }
 .App-logo {
-  height: 5em;
-  padding: 1em;
+  height: 4.5em;
+  padding: 1rem;
   will-change: filter;
   transition: filter 500ms;
-}
-.App-logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
 }
 .App-logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
