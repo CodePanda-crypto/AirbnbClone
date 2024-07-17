@@ -21,9 +21,11 @@
   background: #ffffff;
 }
 .card-image {
-  border-radius: 9px 0px 0px 0px;
+  border-radius: 5%;
   opacity: 0px;
-  padding-bottom: 2px;
+  width: 14rem;
+  height: 17rem;
+  padding-bottom: 10px;
 }
 
 .card-stats {

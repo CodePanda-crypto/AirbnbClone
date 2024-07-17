@@ -1,28 +1,24 @@
 import './card.css';
 
-export default function Card() {
+export default function Card(props) {
   return (
     <section className="card-container">
       <div className="card-header">
-        <h2>SOLD OUT</h2>
+        <h2>{props.title}</h2>
       </div>
       <div className="card-body">
-        <img
-          src="/image.png"
-          alt="Katie Zaferes photo"
-          className="card-image"
-        />
+        <img src={props.img} alt={props.description} className="card-image" />
       </div>
       <div className="card-footer">
         <div className="card-stats">
           <img src="/Star.svg" alt="Star" />
-          <small className="rating">5.0</small>
-          <small>(6).</small>
-          <small>USA</small>
+          <small className="rating">{props.rating}</small>
+          <small>{props.views}</small>
+          <small>{props.country}</small>
         </div>
-        <h2>Life lessons with Katie Zaferes</h2>
+        <h2>{props.description}</h2>
         <p>
-          <span className="price">From $136 </span>/ person
+          <span className="price">{props.price} </span>/ person
         </p>
       </div>
     </section>
