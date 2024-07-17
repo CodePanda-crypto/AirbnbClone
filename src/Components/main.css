@@ -2,7 +2,7 @@
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(2fr 1fr, auto);
+  grid-template-rows: minmax(1fr 1fr, auto);
   grid-template-areas:
     'demo demo'
     'experiences experiences';
