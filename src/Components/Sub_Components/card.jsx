@@ -1,6 +1,6 @@
 import './card.css';
 
-function Card() {
+export default function Card() {
   return (
     <section className="card-container">
       <div className="card-header">
@@ -28,4 +28,3 @@ function Card() {
     </section>
   );
 }
-export default Card;

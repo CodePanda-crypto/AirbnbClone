@@ -1,6 +1,6 @@
 import './hero.css';
 
-function Hero() {
+export default function Hero() {
   return (
     <section className="demo-container">
       <div className="images-container">
@@ -16,4 +16,3 @@ function Hero() {
     </section>
   );
 }
-export default Hero;

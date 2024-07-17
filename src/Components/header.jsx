@@ -1,7 +1,7 @@
 import './header.css';
 import AirbnbLogo from '/airbnb.svg';
 
-function Header() {
+export default function Header() {
   return (
     <header className="App-header">
       <nav className="navbar">
@@ -36,4 +36,3 @@ function Header() {
     </header>
   );
 }
-export default Header;

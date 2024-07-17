@@ -1,7 +1,8 @@
 import './main.css';
 import Hero from './Sub_Components/hero';
 import Card from './Sub_Components/card';
-function Main() {
+
+export default function Main() {
   return (
     <main className="main-container">
       <Hero />
@@ -9,4 +10,3 @@ function Main() {
     </main>
   );
 }
-export default Main;
