@@ -7,6 +7,14 @@ export default function Main() {
     <main className="main-container">
       <Hero />
       <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </main>
   );
 }

@@ -1,4 +1,5 @@
 .card-container {
+  /* grid-area: card; */
   margin-top: 1rem;
 }
 .card-header > h2 {

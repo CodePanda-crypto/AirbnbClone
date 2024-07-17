@@ -2,7 +2,7 @@ import './hero.css';
 
 export default function Hero() {
   return (
-    <section className="demo-container">
+    <section className="hero-container">
       <div className="images-container">
         <img src="/photogrid.png " alt="photo grid image" />
       </div>
