@@ -1,5 +1,5 @@
 import './header.css';
-import ReactLogo from '/react.svg';
+import AirbnbLogo from '/airbnb.svg';
 
 function Header() {
   return (
@@ -13,13 +13,13 @@ function Header() {
             rel="noopener noreferrer"
           >
             <img
-              src={ReactLogo}
+              src={AirbnbLogo}
               className="App-logo react logo-spin"
               alt="React logo"
             />
           </a>
         </div>
-        <div>
+        {/* <div>
           <ul className="nav-links">
             <li className="nav-link">
               <a href="#">Pricing</a>
@@ -31,7 +31,7 @@ function Header() {
               <a href="#">Contact</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

@@ -80,49 +80,48 @@ ul[role='list'] {
 
 /* Body Styling */
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #ffffff;
+  color: rgb(10, 10, 13);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   font-weight: 500;
-  color: #05dbf9;
+  color: #4c82c6;
   text-decoration: inherit;
   transition: filter 500ms ease;
 }
 a:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
   color: aliceblue;
-}
+} */
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.1;
   padding-bottom: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, Helvetica, sans-serif;
   font-weight: bold;
   font-style: normal;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgb(10, 10, 13);
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
     color: aliceblue;
-  }
+  } */
   button {
     background-color: #f9f9f9;
   }

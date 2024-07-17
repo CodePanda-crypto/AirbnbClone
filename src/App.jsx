@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/header';
-import Footer from './Components/footer';
+// import Footer from './Components/footer';
 import Main from './Components/main';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <Header />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
