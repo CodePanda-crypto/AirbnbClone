@@ -15,3 +15,11 @@
     column-gap: 30px;
   }
 }
+@media (min-width: 1500px) {
+  .cards-list {
+    display: grid;
+    grid-template-columns: minmax(1fr, auto);
+    grid-template-areas: 'card card card card card card';
+    column-gap: 30px;
+  }
+}
