@@ -4,7 +4,7 @@ export default function Card({
   title,
   img,
   rating,
-  views,
+  reviewCount,
   country,
   description,
   price,
@@ -21,12 +21,12 @@ export default function Card({
         <div className="card-stats">
           <img src="/Star.svg" alt="Star" />
           <small className="rating">{rating}</small>
-          <small>{views}</small>
+          <small>({reviewCount})</small>
           <small>{country}</small>
         </div>
         <h2>{description}</h2>
         <p>
-          <span className="price">{price} </span>/ person
+          <span className="price">From ${price} </span>/ person
         </p>
       </div>
     </section>
