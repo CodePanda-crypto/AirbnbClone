@@ -5,13 +5,14 @@
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .card-header {
   width: 60px;
   height: 20px;
-  position: relative;
-  left: 1.6rem;
-  top: 1.7rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.6rem;
   line-height: 30px;
   border-radius: 5%;
   background: #ffffff;

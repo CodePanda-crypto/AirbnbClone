@@ -8,12 +8,15 @@ export default function Card({
   location,
   title,
   price,
+  openSpots,
 }) {
   return (
     <section className="card-container">
-      <div className="card-header">
-        <h2>{statusbar}</h2>
-      </div>
+      {openSpots === 0 && (
+        <div className="card-header">
+          <h2>{statusbar}</h2>
+        </div>
+      )}
       <div className="card-body">
         <img src={img} alt={title} className="card-image" />
       </div>

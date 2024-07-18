@@ -10,7 +10,7 @@ export default [
     },
     location: 'USA',
     price: 130,
-    openSpots: 27,
+    openSpots: 0,
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export default [
     },
     location: 'USA',
     price: 400,
-    openSpots: 35,
+    openSpots: 0,
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export default [
     },
     location: 'USA',
     price: 120,
-    openSpots: 20,
+    openSpots: 0,
   },
   {
     id: 4,
