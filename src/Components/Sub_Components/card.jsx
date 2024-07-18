@@ -20,23 +20,19 @@ export default function Card(props) {
       )}
 
       <div className="card-body">
-        <img
-          src={props.card.coverImage}
-          alt={props.card.title}
-          className="card-image"
-        />
+        <img src={props.coverImage} alt={props.title} className="card-image" />
       </div>
       <div className="card-footer">
         <div className="card-stats">
           <img src="/svgs/Star.svg" alt="Star" />
-          <small className="rating">{props.card.stats.rating}</small>
-          <small>({props.card.stats.reviewCount}). </small>
-          <small>{props.card.location}</small>
+          <small className="rating">{props.stats.rating}</small>
+          <small>({props.stats.reviewCount}). </small>
+          <small>{props.location}</small>
         </div>
         <div className="text-container">
-          <h2 className="title">{props.card.title}</h2>
+          <h2 className="title">{props.title}</h2>
           <p>
-            <span className="price">From ${props.card.price} </span>/ person
+            <span className="price">From ${props.price} </span>/ person
           </p>
         </div>
       </div>

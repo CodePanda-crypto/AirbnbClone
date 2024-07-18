@@ -4,7 +4,7 @@ import Card from './Sub_Components/card';
 import CardData from './cardData';
 
 export default function Main() {
-  const cards = CardData.map((card) => <Card key={card.id} card={card} />);
+  const cards = CardData.map((card) => <Card key={card.id} {...card} />);
 
   return (
     <main className="main-container">
