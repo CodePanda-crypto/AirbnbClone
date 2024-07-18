@@ -19,7 +19,7 @@ export default function Card({
       </div>
       <div className="card-footer">
         <div className="card-stats">
-          <img src="/Star.svg" alt="Star" />
+          <img src="/svgs/Star.svg" alt="Star" />
           <small className="rating">{rating}</small>
           <small>({reviewCount})</small>
           <small>{country}</small>

@@ -1,7 +1,7 @@
 export default [
   {
     title: 'ONLINE',
-    img: '/Mountain-Bike.png',
+    img: '/images/Mountain-Bike.png',
     rating: '4.8',
     reviewCount: 33,
     country: 'USA',
@@ -10,7 +10,7 @@ export default [
   },
   {
     title: 'SOLD OUT',
-    img: '/image.png',
+    img: '/images/image.png',
     rating: '5.0',
     reviewCount: 20,
     country: 'USA',
@@ -19,7 +19,7 @@ export default [
   },
   {
     title: 'ONLINE',
-    img: '/wedding-photography.png',
+    img: '/images/wedding-photography.png',
     rating: '4.0',
     reviewCount: 35,
     country: 'USA',
@@ -28,7 +28,7 @@ export default [
   },
   {
     title: 'JOIN NOW',
-    img: '/travel.jpg',
+    img: '/images/travel.jpg',
     rating: '4.9',
     reviewCount: 40,
     country: 'USA',
@@ -37,7 +37,7 @@ export default [
   },
   {
     title: 'ONLINE',
-    img: '/group-hiking.jpg',
+    img: '/images/group-hiking.jpg',
     rating: '4.5',
     reviewCount: 25,
     country: 'USA',
@@ -46,7 +46,7 @@ export default [
   },
   {
     title: 'Favorite',
-    img: '/Nature.jpg',
+    img: '/images/Nature.jpg',
     rating: '4.5',
     reviewCount: 20,
     country: 'Austria',

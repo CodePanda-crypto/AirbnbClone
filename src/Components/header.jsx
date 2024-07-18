@@ -1,5 +1,5 @@
 import './header.css';
-import AirbnbLogo from '/airbnb.svg';
+import AirbnbLogo from '/svgs/airbnb.svg';
 
 export default function Header() {
   return (
@@ -19,19 +19,6 @@ export default function Header() {
             />
           </a>
         </div>
-        {/* <div>
-          <ul className="nav-links">
-            <li className="nav-link">
-              <a href="#">Pricing</a>
-            </li>
-            <li className="nav-link">
-              <a href="#">About</a>
-            </li>
-            <li className="nav-link">
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div> */}
       </nav>
     </header>
   );

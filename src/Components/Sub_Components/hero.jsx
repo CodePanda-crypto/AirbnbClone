@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="hero-container">
       <div className="images-container">
-        <img src="/photogrid.png " alt="photo grid image" />
+        <img src="/images/photogrid.png " alt="photo grid image" />
       </div>
       <div className="text-container">
         <h1>Online Experiences</h1>
