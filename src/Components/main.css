@@ -17,7 +17,16 @@
     column-gap: 15px;
   }
 }
-@media (min-width: 500px) {
+/* @media (min-width: 556px) {
+  .main-container {
+    grid-template-columns: minmax(1fr, auto);
+    grid-template-areas:
+      'hero hero'
+      'card card';
+    column-gap: 15px;
+  }
+} */
+@media (min-width: 420px) {
   .main-container {
     grid-template-columns: minmax(1fr, auto);
     grid-template-areas:
@@ -26,8 +35,7 @@
     column-gap: 15px;
   }
 }
-
-@media (min-width: 700px) {
+@media (min-width: 650px) {
   .main-container {
     grid-template-columns: minmax(1fr, auto);
     grid-template-areas:

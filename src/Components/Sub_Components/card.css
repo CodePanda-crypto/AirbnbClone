@@ -3,6 +3,16 @@
   margin-top: 1rem;
   cursor: pointer;
 }
+.card-header {
+  width: 60px;
+  height: 20px;
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+  line-height: 30px;
+  border-radius: 5%;
+  background: #ffffff;
+}
 .card-header > h2 {
   font-family: Poppins;
   font-size: 10.24px;
@@ -10,16 +20,6 @@
   line-height: 20px;
   text-align: center;
   color: #222222;
-}
-.card-header {
-  width: 70px;
-  height: 20px;
-  position: relative;
-  left: 1rem;
-  top: 2rem;
-  line-height: 30px;
-  border-radius: 10%;
-  background: #ffffff;
 }
 .card-image {
   border-radius: 5%;
@@ -45,8 +45,39 @@
   font-weight: 600;
 }
 
-/* @media (max-width: 700px) {
+@media (min-width: 350px) and (max-width: 420px) {
   .card-container {
-    padding-left: 1.7rem;
+    padding-left: 3rem;
   }
-} */
+}
+@media (min-width: 420px) and (max-width: 494px) {
+  .card-container {
+    padding-left: 1rem;
+    gap: 0px;
+  }
+  .card-image {
+    border-radius: 5%;
+    width: 8rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 494px) and (max-width: 554px) {
+  .card-container {
+    padding-left: 1rem;
+    gap: 0px;
+  }
+  .card-image {
+    border-radius: 5%;
+    opacity: 0px;
+    width: 10rem;
+    height: 12.5rem;
+  }
+}
+@media (min-width: 690px) and (max-width: 822px) {
+  .card-image {
+    border-radius: 5%;
+    opacity: 0px;
+    width: 12rem;
+    height: 14.5rem;
+  }
+}
