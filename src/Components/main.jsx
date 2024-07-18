@@ -6,13 +6,13 @@ import CardData from './cardData';
 export default function Main() {
   const cards = CardData.map((card) => (
     <Card
-      key={card.title}
+      key={card.id}
+      statusbar={card.statusbar}
+      img={card.coverImage}
+      rating={card.stats.rating}
+      reviewCount={card.stats.reviewCount}
+      location={card.location}
       title={card.title}
-      img={card.img}
-      rating={card.rating}
-      reviewCount={card.reviewCount}
-      country={card.country}
-      description={card.description}
       price={card.price}
     />
   ));
