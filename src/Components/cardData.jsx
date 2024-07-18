@@ -1,6 +1,7 @@
 export default [
   {
     id: 1,
+    title: 'Join Group Mountain Biking',
     statusbar: 'ONLINE',
     coverImage: '/images/Mountain-Bike.png',
     stats: {
@@ -8,35 +9,12 @@ export default [
       reviewCount: 33,
     },
     location: 'USA',
-    title: 'Join Group Mountain Biking',
     price: 130,
+    openSpots: 27,
   },
   {
     id: 2,
-    statusbar: 'SOLD OUT',
-    coverImage: '/images/image.png',
-    stats: {
-      rating: 5.0,
-      reviewCount: 20,
-    },
-    location: 'USA',
-    title: 'Life lessons with Katie Zaferes',
-    price: 135,
-  },
-  {
-    id: 3,
-    statusbar: 'ONLINE',
-    coverImage: '/images/wedding-photography.png',
-    stats: {
-      rating: 4.0,
-      reviewCount: 35,
-    },
-    location: 'USA',
-    title: 'Learn wedding photography',
-    price: 125,
-  },
-  {
-    id: 4,
+    title: 'Travel the World with us',
     statusbar: 'JOIN NOW',
     coverImage: '/images/travel.jpg',
     stats: {
@@ -44,11 +22,12 @@ export default [
       reviewCount: 40,
     },
     location: 'USA',
-    title: 'Travel the World with us',
     price: 400,
+    openSpots: 35,
   },
   {
-    id: 5,
+    id: 3,
+    title: 'Join for a Group Hike ',
     statusbar: 'ONLINE',
     coverImage: '/images/group-hiking.jpg',
     stats: {
@@ -56,11 +35,12 @@ export default [
       reviewCount: 25,
     },
     location: 'USA',
-    title: 'Join Group Hiking',
     price: 120,
+    openSpots: 20,
   },
   {
-    id: 6,
+    id: 4,
+    title: 'Explore the Nature with us',
     statusbar: 'Favorite',
     coverImage: '/images/Nature.jpg',
     stats: {
@@ -68,7 +48,33 @@ export default [
       reviewCount: 20,
     },
     location: 'Austria',
-    title: 'Explore the Nature with us',
     price: 300,
+    openSpots: 5,
+  },
+  {
+    id: 5,
+    title: 'Life lessons with Katie Zaferes',
+    statusbar: 'SOLD OUT',
+    coverImage: '/images/image.png',
+    stats: {
+      rating: 5.0,
+      reviewCount: 20,
+    },
+    location: 'USA',
+    price: 135,
+    openSpots: 15,
+  },
+  {
+    id: 6,
+    title: 'Wedding photography ',
+    statusbar: 'ONLINE',
+    coverImage: '/images/wedding-photography.png',
+    stats: {
+      rating: 4.0,
+      reviewCount: 35,
+    },
+    location: 'USA',
+    price: 125,
+    openSpots: 10,
   },
 ];

@@ -1,64 +1,17 @@
 .main-container {
   grid-area: main;
-  display: grid;
-  grid-template-columns: minmax(1fr, auto);
-  grid-template-areas:
-    'hero '
-    'card ';
   padding: 3rem;
 }
-
-@media (max-width: 400px) {
-  .main-container {
-    grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero '
-      'card ';
-    column-gap: 15px;
-  }
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-/* @media (min-width: 556px) {
-  .main-container {
+@media (max-width: 548px) {
+  .cards-list {
+    display: grid;
     grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero hero'
-      'card card';
-    column-gap: 15px;
-  }
-} */
-@media (min-width: 420px) {
-  .main-container {
-    grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero hero'
-      'card card';
-    column-gap: 15px;
-  }
-}
-@media (min-width: 650px) {
-  .main-container {
-    grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero hero hero'
-      'card card card';
-    column-gap: 15px;
-  }
-}
-@media (min-width: 945px) {
-  .main-container {
-    grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero hero hero hero'
-      'card card card card';
-    column-gap: 15px;
-  }
-}
-@media (min-width: 1500px) {
-  .main-container {
-    grid-template-columns: minmax(1fr, auto);
-    grid-template-areas:
-      'hero hero hero hero hero hero'
-      'card card card card card card';
-    column-gap: 15px;
+    grid-template-areas: 'card card';
+    column-gap: 30px;
   }
 }

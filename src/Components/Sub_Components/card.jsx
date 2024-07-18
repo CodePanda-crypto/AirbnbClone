@@ -24,10 +24,12 @@ export default function Card({
           <small>({reviewCount}). </small>
           <small>{location}</small>
         </div>
-        <h2>{title}</h2>
-        <p>
-          <span className="price">From ${price} </span>/ person
-        </p>
+        <div className="text-container">
+          <h2 className="title">{title}</h2>
+          <p>
+            <span className="price">From ${price} </span>/ person
+          </p>
+        </div>
       </div>
     </section>
   );

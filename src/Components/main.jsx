@@ -20,7 +20,7 @@ export default function Main() {
   return (
     <main className="main-container">
       <Hero />
-      {cards}
+      <section className="cards-list">{cards}</section>
     </main>
   );
 }
