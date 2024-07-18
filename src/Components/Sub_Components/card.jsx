@@ -3,7 +3,7 @@ import './card.css';
 export default function Card(props) {
   let badgeText;
   if (props.openSpots === 0) {
-    badgeText = 'SOLD OUT';
+    badgeText = 'Sold Out';
   } else if (props.location === 'Online') {
     badgeText = 'ONLINE';
   } else if (props.statusbar === 'Join Now') {
