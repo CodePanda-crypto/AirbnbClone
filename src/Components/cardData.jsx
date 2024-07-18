@@ -2,20 +2,20 @@ export default [
   {
     id: 1,
     title: 'Join Group Mountain Biking',
-    statusbar: 'ONLINE',
+    statusbar: 'Join Now',
     coverImage: '/images/Mountain-Bike.png',
     stats: {
       rating: 4.8,
       reviewCount: 33,
     },
-    location: 'USA',
+    location: 'Canada',
     price: 130,
-    openSpots: 0,
+    openSpots: 10,
   },
   {
     id: 2,
     title: 'Travel the World with us',
-    statusbar: 'JOIN NOW',
+    statusbar: 'Join Now',
     coverImage: '/images/travel.jpg',
     stats: {
       rating: 4.9,
@@ -28,7 +28,7 @@ export default [
   {
     id: 3,
     title: 'Join for a Group Hike ',
-    statusbar: 'ONLINE',
+    statusbar: 'Join Now',
     coverImage: '/images/group-hiking.jpg',
     stats: {
       rating: 4.5,
@@ -36,12 +36,12 @@ export default [
     },
     location: 'USA',
     price: 120,
-    openSpots: 0,
+    openSpots: 5,
   },
   {
     id: 4,
     title: 'Explore the Nature with us',
-    statusbar: 'Favorite',
+    statusbar: 'Explore',
     coverImage: '/images/Nature.jpg',
     stats: {
       rating: 4.5,
@@ -54,15 +54,15 @@ export default [
   {
     id: 5,
     title: 'Life lessons with Katie Zaferes',
-    statusbar: 'SOLD OUT',
+    statusbar: 'ONLINE',
     coverImage: '/images/image.png',
     stats: {
       rating: 5.0,
       reviewCount: 20,
     },
-    location: 'USA',
+    location: 'Online',
     price: 135,
-    openSpots: 15,
+    openSpots: 0,
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ export default [
       rating: 4.0,
       reviewCount: 35,
     },
-    location: 'USA',
+    location: 'Online',
     price: 125,
     openSpots: 10,
   },
